@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Page */
+body {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+
+
+
+/* CSS Header */
+
+
+div.header {
+	background-color:#FFF;
+	margin-left:179.5px;
+}
+div.header > img {
+	width:107px;
+	position:absolute;
+	top:-4px;
+}
+div.header > h1 {
+	line-height:70px;
+	margin:0;
+	word-spacing:12px;
+	letter-spacing:7px;
+	text-transform:uppercase;
+	font-size:34px;
+	padding-left:155px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+
+/* CSS Menu */
+
+
+div.menu {
+	background-color:#666;
+	overflow:hidden;
+}
+.menuIcon{
+	padding-right:5px;
+}
+.menuControl {	
+	margin:0;	
+}
+ul > li {
+	list-style-type:none;
+	display:block;
+}
+ul > li > a  {
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	padding:10px 25px;
+	opacity:1;
+	transition:visibility 0.1s, opacity 0.99s;
+	font-weight:bold;
+}
+ul > li > a:hover {
+	color:#999;
+	background-color:#000;
+	opacity:0.3;
+}
+div.home > a > img{
+	margin-left:174px;
+}
+div.search {
+	line-height:35px;
+	margin-right:250px;
+}
+div.search > img {
+	width:16px;
+}
+
+
+
+/* CSS Body */
+
+
+div.content {
+	width:78.5%;
+	background-color:#FFF;
+	margin-left:140px;
+	margin-right:10px;
+}
+div.title {
+	margin-top:5px;	
+	background-color:#999;
+	padding:3px;
+}
+div.title > a.mainTitle{
+	text-decoration:none;
+	color:#00F;
+	font-size:22px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+a.more {
+	float:right;
+	color:#00F;
+	padding-top:4px;
+	text-decoration:none;
+	font-size:17px;
+}
+a.more:hover {
+	color:#F00;
+	text-decoration:underline;
+}
+div.title > a.mainTitle:hover {
+	color:#F00;
+}
+div.row {
+	margin-top:5px;
+}
+div.column {
+	float:left;
+	width:45%;
+}
+div.column > img {
+	width:500px;
+	transition:visibility 0.1s, opacity 0.99s;
+}
+div.column > img:hover {
+	opacity:0.5;
+}
+div.column > img.pic2 {
+	width:500px;
+	height:281.25px;
+}
+div.column > img.pic3 {
+	width:500px;
+	height:322.91px;
+}
+div.column > img.pic4 {
+	width:500px;
+	height:320px;
+}
+div.column > img.pic1, div.column > p.picContent1, div.column > img.pic2, div.column > img.pic3, div.column > img.pic4  {
+	margin-left:83px;
+}
+
+div.column > a > h2{
+	margin-top:5px;
+	margin-bottom:-10px;
+	width:510px;
+}
+div.column > a.subTitle > h2 {
+	margin-left:84px;
+}
+div.column > a {
+	text-decoration:none;
+	color:#333;
+}
+div.column > a:hover {
+	color:#CCC;
+}
+div.column > p.picContent1 {
+	width:500px;
+}
+div.column > p {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+div.column > p > a {
+	text-decoration:none;
+}
+.row:after {
+  clear:both;
+  content:"";
+  display:table;
+}
+
+/*Advertisement*/
+
+div.ad1 { 
+	width:10.2%;
+	position:absolute;
+	left:0;
+	top:110px;
+	bottom:0;
+	cursor:pointer;
+}
+img.qc {
+	width:100%;
+	height:108.7%;
+}
+div.adv { 
+	width:11%;
+	position:absolute;
+	right:0;
+	top:110px;
+	bottom:0;
+	cursor:pointer;
+}
+img.qca {
+	width:100%;
+	height:108.7%;
+}
+
+/* btnToTop */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#FFF; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+
+
+/* Footer css */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'zocial', sans-serif;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+footer {
+    background-color: #2E3639;
+    position: relative;
+	margin-top: 100px;
+	z-index: 1;
+}
+footer .splitter {
+    background-color: #ac0;
+    height: 32px;
+	background:linear-gradient(#09F,#FF0);
+}
+footer > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 25px 0;
+    position: relative;
+    width: 95%;
+}
+footer > ul li {
+    float: left;
+    padding: 20px 15px;
+    width: 33.3%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+footer > ul li:first-child {
+    padding-left: 0;
+}
+footer > ul li:nth-child(3) {
+    padding-right: 0;
+}
+footer > ul li .icon {
+    color: #999999;
+    float: left;
+    font-size: 80px;
+    line-height: 80px;
+}
+footer > ul li .text {
+    color: #848889;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 105px;
+    position: relative;
+    text-align: justify;
+}
+footer > ul li.column{
+	padding:20;
+}
+.text{
+	font-weight: bold;
+	padding-bottom:10px;
+}
+.text h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+	line-height:34px;
+}
+.text a {
+    color: #FFDD00;
+    font-weight: bold;
+}
+.text a:hover {
+    text-decoration:none;
+	color:#F00;
+}
+div.product > ul{
+	line-height:40px;
+}
+div.product > ul > a{
+	text-decoration:none;
+	font-size:13px;
+	color:#999999;
+}
+div.product > ul > a:hover{
+	color:#03F;
+	text-decoration:none;
+}
+div.contact > ul{
+	line-height:40px;
+}
+.social{
+	font-weight: bold;
+}
+.bar{
+	font-weight: bold;
+	line-height:22px;
+}
+footer .bar {
+    background-color: #1E2629;
+    padding: 20px 0;
+}
+footer .bar-wrap {
+    font-size: 12px;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    width: 95%;
+}
+.links {
+    float: left;
+    list-style: none outside none;
+    position: relative;
+}
+.links li {
+    float: left;
+    margin-right: 20px;
+}
+.links a {
+    color: #778888;
+	padding: 0;
+	text-transform:capitalize;
+}
+.links a:hover {
+    color: #FFFFFF;
+}
+.social {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.social a {
+    color: #778888;
+    margin-left: 20px;
+}
+.social a:hover {
+    color: #FFFFFF;
+}
+.social .icon {
+    display: inline-block;
+    font-size: 36px;
+    margin-right: 5px;
+    vertical-align: middle;
+ 
+    -webkit-transition: -webkit-transform .3s linear;
+    -moz-transition: -moz-transform .3s linear;
+    -ms-transition: -ms-transform .3s linear;
+    -o-transition:  -o-transform .3s linear;
+    transition: transform .3s linear;
+}
+.social a:hover  .icon {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.social .info {
+    display: inline-block;
+    vertical-align: middle;
+}
+.social .info .follow {
+    display: block;
+}
+.social .info .num {
+    display: block;
+}
+.copyright {
+    color: #778888;
+    margin-top: 5px;
+}
+@media screen and (max-width: 1000px){
+    .links, .social, .copyright{
+        float:none;
+        text-align:center;
+    }
+    .social {
+        position:relative;
+        margin:10px 0;
+    }
+    .links li {
+        display:inline-block;
+        float:none;
+    }
+    .bar {
+        position:relative;
+    }
+    .bar-wrap {
+        margin-bottom:0;
+    }
+}
+ 
+@media screen and (max-width: 835px)  {
+    footer > ul li {
+        float:none;
+        width:auto;
+    }
+}
+ 
+@media screen and (max-width: 768px)  {
+    .links li {
+        margin-right:5px;
+    }
+}
